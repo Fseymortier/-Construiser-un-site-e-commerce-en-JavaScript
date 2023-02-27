@@ -1,15 +1,27 @@
-# Kanap #
+# Kanap
 
-This is the front end and back end server for Project 5 of the Web Developer path.
+# NodeJs
 
-### Back end Prerequisites ###
+Télécharger NodeJs à l'adresse suivante : https://nodejs.org/fr/download/ (la dernière version LTS convient)
 
-You will need to have Node and `npm` installed locally on your machine.
+# Microsoft Visual C++
 
-### Back end Installation ###
+Vérifier que vous avez bien Microsoft visuall C++ Redistributable d'installer avec tous les packages
 
-Clone this repo. From the "back" folder of the project, run `npm install`. You 
-can then run the server with `node server`. 
-The server should run on `localhost` with default port `3000`. If the
-server runs on another port for any reason, this is printed to the
-console when the server starts, e.g. `Listening on port 3001`.
+Si ce n'est pas le cas vous pouvez le télécharger ici: https://learn.microsoft.com/fr-fr/cpp/windows/latest-supported-vc-redist?view=msvc-170
+
+# WampServer64
+
+Pour corréler NodeJs avec la base de donnée télécharger WampServer64 à l'adresse suivante : https://www.wampserver.com/
+
+Exécuter WampServer64
+
+# Lancer le projet 
+
+Dans l'invité de commande Powershell en mode administrateur, positionner vous dans le dossier "back"
+
+Installer les packages express avec la comande suivante : npm install express 
+
+Puis lancer la commande suivante : node server.js
+
+Enfin lancer le fichier index.html dans le dossier "html" qui ce trouve dans le fichier "front" 
