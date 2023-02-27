@@ -24,4 +24,4 @@ Installer les packages express avec la commande suivante : npm install express
 
 Puis lancer la commande suivante : node server.js
 
-Enfin lancer le fichier index.html dans le dossier "html" qui se trouve dans le fichier "front" 
+Enfin lancer le fichier index.html dans le dossier "html" qui se trouve dans le dossier "front" 
