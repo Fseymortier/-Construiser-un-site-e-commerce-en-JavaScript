@@ -1,15 +1,15 @@
-fetch("http://localhost:3000/api/products")
-    .then(responce => {
+fetch('http://localhost:3000/api/products')
+    .then((responce) => {
         if (responce.ok) {
-        return responce.json();
+            return responce.json();
         }
     })
-    .then(canapes => {
+    .then((canapes) => {
         const canapeContainer = document.getElementById('items');
 
-        canapes.forEach(canape =>{            
+        canapes.forEach((canape) => {
             const linkProduct = document.createElement('a');
-            linkProduct.href = "./product.html?id=" + canape._id;
+            linkProduct.href = './html/product.html?id=' + canape._id;
             const article = document.createElement('article');
             linkProduct.appendChild(article);
 
@@ -28,9 +28,9 @@ fetch("http://localhost:3000/api/products")
             productDescription.textContent = canape.name;
             article.appendChild(productDescription);
 
-            canapeContainer.appendChild(linkProduct); 
-        })        
+            canapeContainer.appendChild(linkProduct);
+        });
     })
     .catch(() => {
-        alert("Une erreur est sruvenue lors du chargement de la page");
+        alert('Une erreur est sruvenue lors du chargement de la page');
     });

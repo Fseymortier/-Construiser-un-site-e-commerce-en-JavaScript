@@ -16,12 +16,14 @@ Pour corréler NodeJs avec la base de données télécharger WampServer64 à l'a
 
 Exécuter WampServer64
 
-# Lancer le projet 
+# Lancer le projet
 
 Dans l'invité de commande Powershell en mode administrateur, positionner vous dans le dossier "back"
 
-Installer les packages express avec la commande suivante : npm install express 
+Installer les packages express avec la commande suivante : npm install express
 
 Puis lancer la commande suivante : node server.js
 
-Enfin lancer le fichier index.html dans le dossier "html" qui se trouve dans le dossier "front" 
+Enfin dans l'invité de commande Powershell en mode administrateur, positionner vous dans le dossier "front"
+
+Puis lancer la commande : npm start

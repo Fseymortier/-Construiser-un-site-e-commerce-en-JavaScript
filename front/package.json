@@ -1,0 +1,11 @@
+{
+    "name": "kanap",
+    "version": "1.0.0",
+    "description": "projet site e-commerce",
+    "main": "index.html",
+    "scripts": {
+      "start": "index.html"
+    },
+    "author": "",
+    "license": "ISC"
+}
