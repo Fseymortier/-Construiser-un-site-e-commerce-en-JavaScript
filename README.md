@@ -18,12 +18,7 @@ Exécuter WampServer64
 
 # Lancer le projet
 
-Dans l'invité de commande Powershell en mode administrateur, positionner vous dans le dossier "back"
 
-Installer les packages express avec la commande suivante : npm install express
+Dans l'invité de commande Powershell en mode administrateur, positionner vous dans le dossier "back" et lancer la commande : "npm install" puis "node server.js"
 
-Puis lancer la commande suivante : node server.js
-
-Enfin dans l'invité de commande Powershell en mode administrateur, positionner vous dans le dossier "front"
-
-Puis lancer la commande : npm start
+Dans l'invité de commande Powershell en mode administrateur, positionner vous dans le dossier "front" et lancer la commande : "npm install" puis "npm start"
