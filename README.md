@@ -1,4 +1,4 @@
-# Kanap
+# Construire un site e-commerce en JavaScript
 
 # NodeJs
 
